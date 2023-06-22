@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+:root {
 
+    --left--bg-color:rgba(87, 84,236, 0.6);
+    --right--bg-color:rgba(201, 35, 35, 0.6);
+}
 * {
     box-sizing: border-box;
 
@@ -33,6 +37,14 @@ body {
     background-size: cover;
 }
 
+.split.left::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left--bg-color);
+}
+
 .split.right {
     right:0;
     background: url(/assets/images/ronaldo.jpg);
@@ -40,3 +52,13 @@ body {
     background-size: cover;
     background-position-x: 50%;
 }
+
+.split.right::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right--bg-color);
+}
+
+
