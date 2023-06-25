@@ -50,6 +50,17 @@ h1 {
     padding: 1.5rem;
 }
 
+h3 {
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 55%;
+}
+
 .split.left .btn:hover {
     background-color: var(--left-btn-hover-color);
     border-color: var(--left-btn-hover-color);
