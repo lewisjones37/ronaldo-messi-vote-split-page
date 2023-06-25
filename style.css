@@ -5,8 +5,9 @@
     --right--bg-color:rgba(201, 35, 35, 0.6);
     --left-btn-hover-color: rgba(87,84,236, 1);
     --right-btn-hover-color:rgba(201, 35, 35, 1);
-    --hover-width: 75%;
-    --other-width: 25%;
+    --hover-width: 65%;
+    --other-width: 35%;
+    --speed: 1000ms;
 }
 * {
     box-sizing: border-box;
@@ -102,6 +103,10 @@ h1 {
     width: 100%;
     height: 100%;
     background-color: var(--right--bg-color);
+}
+
+.split.right, .split.left, .split.right::Before, .split.left::before {
+    transition: all var(--speed) ease-in-out;
 }
 
 .hover-left .left {
