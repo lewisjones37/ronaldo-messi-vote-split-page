@@ -15,3 +15,23 @@ btn.forEach(btn => {
         btn.innerText = 'Thanks for Voting!';
     });
 });
+
+function incrementButton() {
+    var element = document.getElementById('incrementTextLeft')
+    var value = element.innerHTML
+
+    ++value;
+    console.log(value)
+
+    document.getElementById('incrementTextLeft').innerHTML = value;
+}
+
+function incrementButton() {
+    var element = document.getElementById('incrementTextRight')
+    var value = element.innerHTML
+
+    ++value;
+    console.log(value)
+
+    document.getElementById('incrementTextRight').innerHTML = value;
+}
