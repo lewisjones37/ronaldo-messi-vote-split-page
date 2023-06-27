@@ -16,7 +16,7 @@ btn.forEach(btn => {
     });
 });
 
-function incrementButton() {
+function incrementButtonLeft() {
     var element = document.getElementById('incrementTextLeft')
     var value = element.innerHTML
 
@@ -26,7 +26,7 @@ function incrementButton() {
     document.getElementById('incrementTextLeft').innerHTML = value;
 }
 
-function incrementButton() {
+function incrementButtonRight() {
     var element = document.getElementById('incrementTextRight')
     var value = element.innerHTML
 
