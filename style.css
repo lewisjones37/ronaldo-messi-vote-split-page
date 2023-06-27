@@ -50,6 +50,11 @@ h1 {
     padding: 1.5rem;
 }
 
+.btn-hide {
+    visibility: hidden;
+}
+  
+
 h3 {
     font-size: 5rem;
     color: white;
