@@ -39,9 +39,10 @@ function incrementButtonRight() {
     console.log(value)
 
     document.getElementById('incrementTextRight').innerHTML = value;
+
+    var leftBtn = document.querySelector('.split.left .btn');
+    var rightBtn = document.querySelector('.split.right .btn');
+    leftBtn.classList.add('btn-hide');
+    rightBtn.classList.add('btn-hide');
 }
 
-function voteOnce() {
-
-    btn.addEventListener('click', () => btn.classList.add('btn-hide'))
-}
