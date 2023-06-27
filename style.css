@@ -92,6 +92,19 @@ h3 {
     background-size: cover;
 }
 
+@media(max-width: 600px) {
+
+    .split.left {
+        background: url(/assets/images/messi.ten.jpeg);
+        background-position-x: 50%;
+        background-repeat: no-repeat;
+        
+    }
+
+}
+
+
+
 .split.left::before {
     content: '';
     position: absolute;
@@ -128,6 +141,7 @@ h3 {
 .hover-left .right {
     width: var(--other-width);
 }
+
 
 .hover-right .right {
     width: var(--hover-width);
